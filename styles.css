@@ -4,13 +4,44 @@
 }
 
 .header {
-    color: white;
+    color: #F9FAF8;
     background-color: #1F2937; 
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+    max-width: 400px;
+}
+
+.header-body {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+img {
+    max-height: 250px;
+    margin-left: 48px;
 }
 
 ul {
@@ -21,5 +52,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+button {
+    border-radius: 9px;
+    margin-top: 50px;
+    padding: 9px 28px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
