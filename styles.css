@@ -133,3 +133,10 @@ button {
     border-radius: 8px;
     border: 2px solid white;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
