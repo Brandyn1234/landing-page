@@ -110,3 +110,26 @@ button {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section4 {
+    padding: 80px 170px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 75px;
+}
+
+.call-to-action-button {
+    margin: 0;
+    background-color: #3882F6;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
